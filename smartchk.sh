@@ -70,7 +70,7 @@ function parse_args() {
 # Функция обновления скрипта
 function update_script() {
     echo "Updating script..."
-    wget -O /usr/sbin/smartchk.sh https://spfng.com/files/smartchk.sh
+    wget -O /usr/sbin/smartchk.sh https://raw.githubusercontent.com/spfng/smartchk/refs/heads/main/smartchk.sh
 }
 
 # Функция проверки SMART-состояния диска
